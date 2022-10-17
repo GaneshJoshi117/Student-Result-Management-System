@@ -103,9 +103,10 @@ public class adminHome extends javax.swing.JFrame {
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 244, 167, -1));
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\logout.jpg")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\logout.jpg")); // NOI18N
         jButton5.setText("Logout");
         jButton5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -170,6 +171,7 @@ public class adminHome extends javax.swing.JFrame {
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton6.setText("Create New Student");
+        jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);

@@ -100,9 +100,10 @@ public class insertNewResult extends javax.swing.JFrame {
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 244, 167, -1));
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\logout.jpg")); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\logout.jpg")); // NOI18N
         jButton5.setText("Logout");
         jButton5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
@@ -156,6 +157,7 @@ public class insertNewResult extends javax.swing.JFrame {
 
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton6.setText("Submit Marks");
+        jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -220,12 +222,12 @@ public class insertNewResult extends javax.swing.JFrame {
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery("select * from student where RollNum ='" + rollno + "'");
             if (rs.next()) {
-                st.executeUpdate("insert into result values ('" + rollno + "','" + physics + "','" + chemistry + "','" + mathematics + "','" + dbms + "','" + os + "')");
-                JOptionPane(null, "Result added successfully");
+                st.executeUpdate("insert into result(RollNum,physics,chemistry,mathematics,dbms,os) values ('" + rollno + "','" + physics + "','" + chemistry + "','" + mathematics + "','" + dbms + "','" + os + "')");
+                JOptionPane.showMessageDialog(null, "Result added successfully");
                 setVisible(false);
                 new insertNewResult().setVisible(true);
             } else if (!rs.next()) {
-                JOptionPane(null, "Student doesn't exist");
+                JOptionPane.showMessageDialog(null, "Student doesn't exist");
             }
 
         } catch (Exception e) {

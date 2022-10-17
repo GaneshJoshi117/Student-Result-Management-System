@@ -98,7 +98,6 @@ public class studentHome extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(51, 255, 255));
-        setMaximumSize(new java.awt.Dimension(700, 400));
         setMinimumSize(new java.awt.Dimension(700, 400));
         addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
@@ -194,7 +193,7 @@ public class studentHome extends javax.swing.JFrame {
         jTextField12.setEditable(false);
         jPanel2.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(488, 190, 84, -1));
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\back .jpg")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\back .jpg")); // NOI18N
         jButton1.setText("Back");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -204,7 +203,7 @@ public class studentHome extends javax.swing.JFrame {
         });
         jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 220, -1, -1));
 
-        jTextField13.setText("jTextField13");
+        jTextField13.setEditable(false);
         jPanel2.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(606, 190, 77, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 700, 250));
@@ -263,8 +262,8 @@ public class studentHome extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(169, 169, 169))
+                .addComponent(jLabel25)
+                .addGap(170, 170, 170))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -288,11 +287,11 @@ public class studentHome extends javax.swing.JFrame {
             ResultSet rs = st.executeQuery("select * from student inner join result where student.RollNum = '" + rollnum + "' and result.RollNum = '" + rollnum + "'");
             if (rs.next()) {
                 jTextField1.setText(rs.getString(2));
-                jTextField2.setText(rs.getString(3));
-                jTextField3.setText(rs.getString(4));
-                jTextField4.setText(rs.getString(5));
-                jTextField5.setText(rs.getString(6));
-                jTextField6.setText(rs.getString(7));
+                jTextField2.setText(rs.getString(4));
+                jTextField3.setText(rs.getString(5));
+                jTextField4.setText(rs.getString(3));
+                jTextField5.setText(rs.getString(7));
+                jTextField6.setText(rs.getString(6));
 
                 jTextField7.setText(rs.getString(8));
                 jTextField8.setText(rs.getString(9));

@@ -61,7 +61,7 @@ public class studentIndex extends javax.swing.JFrame {
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 200, 210, -1));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\login.jpg")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\login.jpg")); // NOI18N
         jButton1.setText("Search");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -72,7 +72,7 @@ public class studentIndex extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, 100, 30));
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\back .jpg")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\back .jpg")); // NOI18N
         jButton2.setText("Back");
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -93,7 +93,7 @@ public class studentIndex extends javax.swing.JFrame {
         });
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 60, 430, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\admin login back.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\admin login back.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 

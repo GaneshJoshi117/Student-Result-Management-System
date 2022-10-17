@@ -32,7 +32,7 @@
           <Font name="Arial" size="12" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Ganesh Joshi\Desktop\Java codes\student 1.jpg"/>
+          <Image iconType="2" name="C:\Users\Ganesh Joshi\Documents\NetBeansProjects\SRNS_MAJOR_PROJECT\images\student 1.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Student"/>
         <Property name="horizontalAlignment" type="int" value="2"/>
@@ -52,7 +52,7 @@
           <Font name="Arial" size="12" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Ganesh Joshi\Desktop\Java codes\student_login.jpg"/>
+          <Image iconType="2" name="C:\Users\Ganesh Joshi\Documents\NetBeansProjects\SRNS_MAJOR_PROJECT\images\student_login.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Admin"/>
       </Properties>
@@ -86,7 +86,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Ganesh Joshi\Desktop\O6A5183-Full.jpg"/>
+          <Image iconType="2" name="C:\Users\Ganesh Joshi\Documents\NetBeansProjects\SRNS_MAJOR_PROJECT\images\O6A5183-Full.jpg"/>
         </Property>
       </Properties>
       <Constraints>

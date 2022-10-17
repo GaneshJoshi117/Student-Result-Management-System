@@ -37,7 +37,7 @@ public class index extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\student 1.jpg")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\student 1.jpg")); // NOI18N
         jButton1.setText("Student");
         jButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -48,7 +48,7 @@ public class index extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 290, 130, 60));
 
         jButton2.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\Java codes\\student_login.jpg")); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\student_login.jpg")); // NOI18N
         jButton2.setText("Admin");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,7 +68,7 @@ public class index extends javax.swing.JFrame {
         });
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, 500, 40));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Desktop\\O6A5183-Full.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ganesh Joshi\\Documents\\NetBeansProjects\\SRNS_MAJOR_PROJECT\\images\\O6A5183-Full.jpg")); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 400));
 
         jButton3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
